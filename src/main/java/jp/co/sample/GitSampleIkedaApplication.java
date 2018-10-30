@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitSampleIkedaApplication {
 
 	public static void main(String[] args) {
+		System.out.println("デプロイとサーバー起動を行います");
 		SpringApplication.run(GitSampleIkedaApplication.class, args);
 	}
 }
