@@ -1,10 +1,13 @@
 package jp.co.sample.user;
 
+import java.time.LocalDate;
+
 public class User {
 
 	private String name;
 	private Integer age;
 	private String gender;
+	private LocalDate birth;
 
 	public String getName() {
 		return name;
